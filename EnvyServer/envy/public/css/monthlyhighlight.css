@@ -1,0 +1,19 @@
+@import url("./select.css");
+@import url("./highlight.css");
+
+#monthly-temperature-section
+{
+	display: none;
+}
+
+#monthly-humidity-section
+{
+	display: none;
+}
+
+#monthly-luminosity-section
+{	
+	display: none;
+}
+
+

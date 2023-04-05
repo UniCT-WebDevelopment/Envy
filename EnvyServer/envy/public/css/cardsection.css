@@ -1,0 +1,84 @@
+.card-section
+{
+	flex-grow: 1;
+	padding: 30px;
+	display: flex;
+	align-content: space-between;
+	flex-wrap: wrap;
+	background-color: white;
+	margin: 10px;
+}
+
+.top-card-section
+{
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: var(--max-room-name-len);
+}
+
+.bottom-card-section
+{
+	flex-grow: 1;
+	height: 400px;
+}
+
+.home-card-room-field-label
+{
+	flex-basis: var(--max-room-field-len);
+}
+
+.room-list-first-element
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.home-card-room-list
+{
+	flex-grow: 1;
+	flex-basis: var(--max-room-name-len);
+	flex-shrink: 1;
+}
+
+.home-card-room-field-value
+{
+	text-align: end;
+	flex-basis: var(--max-room-name-len);
+}
+
+.home-card-field-container
+{
+	display: flex;
+	flex-flow: nowrap;
+	justify-content: space-between;
+}
+
+.home-card-first-field
+{
+	margin: 33px 0px 0px 0px;
+}
+
+.home-card-field
+{
+	margin: 6px 0px 0px 0px;
+}
+
+.device-warnings-label
+{
+	margin-bottom: 33px;
+}
+
+h6, h3
+{
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+h5
+{
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+}

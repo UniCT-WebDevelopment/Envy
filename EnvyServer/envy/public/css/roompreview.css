@@ -1,0 +1,11 @@
+#room-preview-section
+{
+	display: none;
+	padding: 30px;
+	align-content: center;
+}
+
+#room-preview-section .card-section
+{
+	height: 100%;
+}

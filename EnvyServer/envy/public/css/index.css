@@ -1,0 +1,171 @@
+@import url(./form.css);
+@import url(./menu.css);
+
+*
+{
+	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+}
+
+html
+{
+	height: 100%;
+}
+
+body 
+{
+	margin: 0px;
+	position: relative;
+	background-image: url(./back2.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100%;
+	display: flex;
+}
+
+*::-webkit-scrollbar 
+{
+	display: none;
+}
+  
+input 
+{
+	background-color: transparent;
+}
+
+#main-index-container
+{
+	width: 100%;
+	background-color: rgba(61, 60, 60, 0.836);
+	min-height: 100%;
+	position: relative;
+	z-index: 4;
+	display: flex;
+}
+
+.side-index-container
+{
+	flex-basis: 5%;
+	background-color: transparent;
+}
+
+.mid-index-container 
+{   
+	display: flex;
+	align-items: center;
+	background-color: transparent;
+	flex-grow: 1;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+#subscribe-component
+{
+	display: none;
+}
+
+#login-component,#subscribe-component
+{
+	background-color: transparent;
+	flex-basis: 670px;
+}
+
+#login-component .menu-header-container
+{
+	background-color: var(--menu-color);
+}
+
+#subscribe-component .menu-header-container
+{
+	background-color: var(--menu-color3);
+}
+
+#login-component .menu-header-container,
+#subscribe-component .menu-header-container
+{
+	font-size: 32px;
+	border-radius: 40px 40px 0 0;
+	flex-basis: 100%;
+}
+
+#login-component .menu-header-container h2,
+#subscribe-component .menu-header-container h2
+{
+	padding: 0px;
+}
+
+#preview-header
+{
+	color: white;
+	font-size : 130px;
+}
+
+#preview-header p
+{
+	margin: 0px;
+}
+
+.form-sub-label
+{
+	flex-basis: 180px;
+}
+
+#sub-msg
+{
+	align-self: end;
+}
+
+.form-sub-input
+{
+	flex-basis: 300px;
+}
+
+#form-bottom-login-container
+{
+	justify-content: space-between;
+}
+
+#go-subscribe-button
+{
+	appearance: none;
+	background: none;
+	outline: none;
+	border: none;
+	align-self: end;
+	padding: 3px;
+	flex-grow: 1;
+	font-size: medium;
+	text-align: left;
+	text-decoration: underline;
+	margin-left: 10px;
+}
+
+#form-main-sub-section
+{
+	position: relative;
+	display: none;
+}
+
+#subscribe-form-container,
+#login-form-container
+{
+	padding: 30px;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1000px)
+{
+	.mid-index-container 
+	{
+		width: 80%;
+	}
+}
+
+@media only screen and (min-width: 1001px) 
+{
+	.mid-index-container 
+	{
+		width: 90%;
+	}
+}
+

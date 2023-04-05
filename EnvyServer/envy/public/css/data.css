@@ -1,0 +1,37 @@
+:root
+{
+	--tray-left-shift : 56px;
+	--container-padding : 30px;
+	--max-measure-len : 11ch;
+	--max-home-name-len : 10ch;
+	--max-city-name-len : 50ch;
+	--max-street-name-len : 60ch;
+	--max-district-name-len : 50ch;
+	--max-room-name-len : 30ch;
+	--max-room-field-len : 20ch;
+	--top-card-height: 300px;
+	--bottom-card-height: 400px;
+	--container-shadow:0px 0px 29px -8px #000000;
+	--background-color: #343a40;
+	--container-color: #49505779;
+	--footer-color : #ffffff00;
+	--header-height : 70px;
+	--header-color : #43aa8b;
+	--menu-color : #4d908e;
+	--menu-color2 : #277da1;
+	--menu-color3 : #43aa8b;
+	--menu-color4 : #90be6d;
+	--home-container-color : #43AA8B;
+	--home-container-color2 :  #90BE6D;
+	--home-container-color3 :  #F9C74F;
+	--home-container-color4 :  #f9844a;
+	--footer-z-index : 3;
+	--header-z-index : 3;
+	/*--sub-header-container-z-index  : 4*/
+	--main-header-container-z-index : 5;
+	--side-container-z-index : 2;
+	--mid-container-z-index : 1;
+	--mid-container-color: transparent;
+	--side-container-color: transparent;
+	--main-container-color: transparent;
+}

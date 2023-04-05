@@ -1,0 +1,66 @@
+#manage-home-component
+{
+	display: none;
+}
+
+#manage-home-section 
+{
+	display: none;
+}
+
+#home-section2 
+{
+	display: none;
+}
+
+#manage-home-section > .top-container
+{
+	background-color: var(--menu-color);
+}
+
+#search-home-section2 > .top-container
+{
+	background-color: var(--menu-color);
+}
+
+#manage-home-section .option-wrapper
+{
+	padding: 0 10px;
+}
+
+#manage-home-preview-container > .option-field-container
+{
+	margin-top: 0;
+}
+
+#home-choosed-container div
+{
+	margin: 10px;
+	z-index: 4;
+}
+
+#home-choosed-container div span
+{
+	color: white;
+	font-size: 24px;
+}
+
+#home-choosed-container
+{
+	border-radius: 6px;
+	width: 100%;
+	height: 53px;
+	opacity: 0.8;
+	position: relative;
+}
+
+#home-choosed-container::before
+{
+	background-color: var(--menu-color2);
+	border-radius: 6px;
+	position: absolute;
+	content: "";
+	filter: blur(0.3px);
+	height: 53px;
+	width: 100% ;
+}

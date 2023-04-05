@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Envy</title>
+        <meta charset="UTF-8"/> 
+		<link rel="stylesheet" type="text/css" href="http://envy-server.homenet.telecomitalia.it/index.css" media="screen"/>     
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    </head>   
+    <body>  	
+		<div id="main-index-container" class="main-container">
+			<div class="side-container side-menu-container"></div>
+			<div id="right-container" class="mid-index-container">
+				<div id="index-header-container">
+					<div id="preview-header" class="header">
+						<p>Envy</p>
+					</div>
+				</div>
+				<div id="login-component" class="menu-component">
+					<div id="login-section" class="menu-container">
+						<div class="menu-header-container top-container">
+							<div id="login-form-header" class="form-header-container">
+								<h2 class="form-header">Hello dear..</h2><h2>Who are you?</h2>
+							</div>
+							<div id="login-log-container" class="log-container"></div>
+						</div>
+						<div id="login-form-container" class="form-section-container">
+							<form id="login-form"> 
+								<div class="form-section">
+									<label class="form-label form-line" for="login-username-input-name">Username</label>
+									<input id="login-username-input" class="form-input form-line" type="text" name="login-username-input-name" placeholder="Username" required="required"/>   
+									<hr class="form-login-delimiter"/>
+								</div>
+								<div class="form-section">
+									<label class="form-label form-line" for="login-password-input-name">Password</label> 
+									<input id="login-password-input" class="form-input form-line"  type="password" name="login-password-input-name" placeholder="Password" required="required"/>  
+									<hr class="form-login-delimiter"/>
+								</div>
+								<div class="form-button-container">
+									<button type="button" id="login-button" class="form-button button">login</button>
+									<button type="button" id="go-subscribe-button">Do you not have an account yet? Subscribe it now</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div id="subscribe-component" class="menu-component">
+					<div id="subscribe-section" class="menu-container">
+						<div class="menu-header-container top-container">
+							<div id="subscribe-form-header" >
+								<h2>Nice to meet you...</h2>
+							</div>
+							<div id="subscribe-log-container" class="log-container"></div>
+						</div>
+						<div id="subscribe-form-container" class="form-section-container">
+							<form id="subscribe-form"> 
+								<div class="form-section">
+									<label class="form-label form-line" for="subscribe-username-input-name">Username</label>
+									<input id="subscribe-username-input" class="form-input form-line" type="text" name="subscribe-username-input-name" placeholder="Username" required="required"/>   
+									<hr class="form-subscribe-delimiter"/>
+								</div>
+								<div class="form-section">
+									<label class="form-label form-line" for="subscribe-email-input-name">Email</label>
+									<input id="subscribe-email-input" class="form-input form-line" type="email" name="subscribe-email-input-name" placeholder="Email" required="required"/>   
+									<hr class="form-subscribe-delimiter"/>
+								</div>
+								<div class="form-section">
+									<label class="form-label form-line" for="subscribe-password-input-name">Password</label> 
+									<input id="subscribe-password-input" class="form-input form-line"  type="password" name="subscribe-password-input-name" placeholder="Password" required="required"/>  
+									<hr class="form-subscribe-delimiter"/>
+								</div>
+								<div class="form-section">
+									<label class="form-label form-line" for="subscribe-confirm-password-input-name">Confirm password</label> 
+									<input id="subscribe-confirm-password-input" class="form-input form-line"  type="password" name="subscribe-confirm-password-input-name" placeholder="Password" required="required"/>  
+									<hr class="form-subscribe-delimiter"/>
+								</div>
+								<div class="form-button-container">
+									<button type="button" id="subscribe-button" class="form-button button">subscribe</button>
+									<button type="button" id="subscribe-back-button" class="form-button button">back</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="side-container side-menu-container"></div>
+		</div>
+		<script src="http://envy-server.homenet.telecomitalia.it/indexScript.mjs" type="module"> </script> 
+    </body>
+</html>

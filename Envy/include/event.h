@@ -1,0 +1,67 @@
+#ifndef _SERVER_DEVICE_EVENT_TYPE_
+#define _SERVER_DEVICE_EVENT_TYPE_
+
+typedef enum SERVER_DEVICE_EVENT_TYPE
+{
+    SD_BAD_EVENT,
+    DEVICE_INFO,
+    SENSOR_INFO,
+    SENSOR_ID_LIST,  
+    DEVICE_STATUS,
+    LOGIN_PERMISSION
+}sdEvent;
+
+#endif
+
+#ifndef _DEVICE_SERVER_EVENT_TYPE_
+#define _DEVICE_SERVER_EVENT_TYPE_
+
+typedef enum DEVICE_SERVER_EVENT_TYPE
+{
+    DS_BAD_EVENT = 100,
+    DEVICE_INFO_ACK,
+    SENSOR_INFO_ACK,
+    SENSOR_ID_LIST_ACK,
+    DATA_INFO_ACK,     
+    DEVICE_STATUS_ACK = 105,
+    LOGIN_REQ,
+    TH_DATA_ACK,     
+    LM_DATA_ACK,     
+    PR_DATA_ACK,   
+}dsEvent; 
+
+#endif
+
+#ifndef _SERVER_DEVICE_STATUS_TYPE_
+#define _SERVER_DEVICE_STATUS_TYPE_
+
+typedef enum SERVER_DEVICE_STATUS_TYPE                   
+{  
+    REG_DEN_CODE = 400,
+    DEV_NOT_EXS_CODE = 404,
+    DEV_ALR_REG_CODE = 403,
+    DEV_ALR_LOG_CODE = 405,
+    DEVICE_INFO_ACK_CODE = 200,     
+    SENSOR_INFO_CODE = 201,
+    SENSOR_REG_CODE = 202,
+    REG_ACK_CODE = 203,
+    LOGIN_ACK_CODE = 204,
+}
+sdEventStatus;
+
+#endif
+
+#ifndef _DOC_TYPE_
+#define _DOC_TYPE_
+
+typedef enum DOC_TYPE
+{
+    DEV_INFO_JSON,  
+    DEV_STAT_JSON,
+    SENSOR_INFO_JSON, 
+    SENSOR_ID_LIST_JSON, 
+    LOGIN_JSON, 
+    DATA_JSON
+}docType;
+
+#endif

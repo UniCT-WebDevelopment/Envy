@@ -1,0 +1,48 @@
+#device-section2,
+#device-section
+{
+	display: none;
+}
+
+#device-section2 .top-container,
+#device-section .top-container
+{
+	background-color: var(--menu-color3);
+}
+
+.device-name
+{
+	display: flex;
+	flex-basis:  50%;
+	overflow-x: scroll;
+	max-width: 200px;
+}
+
+.device-room-name
+{
+	flex-basis: 50%;
+	flex-grow: 0;
+	max-width: 200px;
+	overflow-x: scroll;
+}
+
+#room-select-wrapper
+{
+	flex-basis: 100%;
+}
+
+#device-select-wrapper
+{
+	flex-basis: 100%;
+}
+
+#device-list-section-container
+{
+	flex-basis: 100%;
+}
+
+#device-list-section
+{
+	min-height: 159px;
+	overflow-y: scroll;
+}

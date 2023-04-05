@@ -1,0 +1,57 @@
+#add-home-component
+{
+	display: none;
+	min-height: 570px;
+}
+
+#home-section,
+#home-section2
+{
+	min-height: 470px;
+}
+
+#home-section > .top-container
+{
+	background-color: var(--menu-color2);
+}
+
+#home-section2 > .top-container
+{
+	background-color: var(--menu-color2);
+}
+
+#add-home-form2,
+#add-home-form
+{
+	flex-grow: 1;
+	align-self: center;
+}
+
+#add-home-form2 h2,
+#add-home-form h2
+{
+	margin: 0 0 20px 10px;
+}
+
+#add-home-form-header2, 
+#add-home-form-header 
+{
+	display : flex;
+	flex-grow : 1;
+	align-items : center;
+	padding : 10px;
+}
+
+#add-home-form-container,
+#add-home-form-container2
+{
+	display : flex;
+	flex-grow  : 1;
+	flex-shrink: 0;
+}
+
+#add-home-form-wrapper2,
+#add-home-form-wrapper
+{
+	align-items: center;
+}

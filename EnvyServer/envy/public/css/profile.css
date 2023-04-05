@@ -1,0 +1,39 @@
+#profile-choice-section > .top-container
+{
+	background-color: var(--menu-color);
+}
+
+#username-section > .top-container
+{
+	background-color: var(--menu-color2);
+}
+
+#email-section > .top-container
+{
+	background-color: var(--menu-color3);
+}
+
+#password-section > .top-container
+{
+	background-color: var(--menu-color4);
+}
+
+.option-field-value-container
+{
+	margin-left: 10px;
+}
+
+#username-section
+{
+	display: none;
+}
+
+#email-section
+{
+	display: none;
+}
+
+#password-section
+{
+	display: none;
+}

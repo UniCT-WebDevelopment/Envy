@@ -1,0 +1,110 @@
+:root
+{
+	--select-div-height : 32px;
+	--select-div-num : 6;
+	--select-div-year-width : 120px;
+	--select-div-month-width : 150px;
+	--select-div-margin : 7px
+}
+
+.highlight-year-chart-select-wrapper
+{
+	height: var(--select-div-height);
+	flex-basis: var(--select-div-year-width);
+	position: relative;
+	z-index: 10;
+}
+
+.highlight-month-chart-select-wrapper
+{
+	height: var(--select-div-height);
+	flex-basis: var(--select-div-month-width);
+	position: relative;
+	z-index: 10;
+}
+
+.wide-info-wrapper
+{
+	min-height: 110px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: 100%;
+}
+
+.stat-header-container
+{
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	flex-wrap: wrap;
+	border-radius: 6px;
+	flex-basis: 100%;
+	background-color: var(--home-container-color);
+	border-radius: 6px;
+	color: white;
+}
+
+.measure-header
+{
+	font-size: 45px;
+	margin: 0 20px 0 20px;
+}
+
+.chart-log
+{
+	font-size: 40px;
+	color: black;
+	display: flex;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.wide-chart-container
+{
+	height: 260px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.card-wide-canvas
+{
+	width: 100%;
+	height: 100%;
+}
+
+.monthly-measure-header
+{
+	min-height: 50px;
+	flex-basis: 100%;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 720px)
+{
+	.chart-log,
+	.measure-header
+	{
+		font-size: 32px;
+	}
+
+	.wide-chart-container
+	{
+		width: calc(90vw - 70px);
+	}
+}
+
+@media only screen and (min-width: 721px)
+{
+	.chart-log,
+	.measure-header
+	{
+		font-size: 42px;
+	}
+
+	.wide-chart-container
+	{
+		width: calc(80vw - 200px);
+	}
+}

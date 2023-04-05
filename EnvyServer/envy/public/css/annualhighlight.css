@@ -1,0 +1,18 @@
+@import url("./select.css");
+@import url("./highlight.css");
+
+#annual-temperature-section
+{
+	display: none;
+}
+
+#annual-humidity-section
+{
+	display: none;
+}
+
+#annual-luminosity-section
+{	
+	display: none;
+}
+

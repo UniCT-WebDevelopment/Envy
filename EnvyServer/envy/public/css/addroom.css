@@ -1,0 +1,115 @@
+#room-section
+{
+	display: none;
+}
+
+#room-section > .top-container
+{
+	background-color: var(--menu-color);
+}
+
+#room-floor-num-input
+{
+	flex-basis: 20%;
+}
+
+#room-list-section-container
+{
+	height: 50%;
+}
+
+#add-room-form-header
+{
+	display : flex;
+	flex-basis : 300px;
+	flex-grow : 1;
+	align-items : center;
+	padding : 10px;
+}
+
+#room-list-section
+{
+	padding-top: 10px;
+	overflow-y: scroll;
+	height: 150px;
+	margin-top: 15px;
+}
+
+.room-list-row
+{
+	flex-basis: 100%;
+	display: flex;
+	flex-grow: 0;
+}
+
+.room-floor
+{
+	display: flex;
+	flex-flow: row-reverse;
+	margin-left: 5%;
+	flex-basis:  5%;
+	flex-grow: 1;
+	overflow-x: scroll;
+	max-width: 50px;
+}
+
+.room-remove-button
+{
+	display: flex;
+	flex-flow: row-reverse;
+	margin-left: 5%;
+	flex-basis:  5%;
+	flex-grow: 1;
+}
+
+.room-name
+{
+	flex-basis: 80%;
+	flex-grow: 0;
+	max-width: 200px;
+	overflow-x: scroll;
+}
+
+#add-room-form-container
+{
+	display: flex;
+	flex-grow: 1;
+	padding: 30px;
+}
+
+#add-room-form
+{
+	flex-grow: 1;
+}
+
+#form-room-sub-section
+{
+	display: flex;
+	flex-flow: wrap;
+	flex-grow: 1;
+	margin-top: 20px;
+}
+
+.form-room-input-wrapper
+{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 15px;
+}
+
+.form-room-input-container
+{
+	flex-basis: 100%;
+	border-left: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+#form-room-name-input-container
+{
+	flex-grow: 1;
+}
+
+#form-room-floor-input-container
+{
+	flex-basis: 20%;
+}

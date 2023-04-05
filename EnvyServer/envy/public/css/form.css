@@ -1,0 +1,123 @@
+@import url(./data.css);
+
+
+#form-wrapper-container
+{
+	padding: 10px;
+	flex-grow: 1;
+	z-index: 1;
+	flex-basis: 50%;
+}
+
+.form-log-container
+{
+	font-size: 20px;
+	display: none;
+}
+
+.form-header-container
+{
+	display: flex;
+	flex-flow: wrap;
+}
+
+.form-header
+{
+	flex-shrink: 0;
+}
+
+.form-mid-container
+{
+	font-size: 18px;
+	margin-top: 70px;
+	border-left: 2px solid var(--header-color);
+}
+
+.form-delimiter
+{
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.form-section
+{
+	padding-left: 10px;
+}
+
+.form-section-container h2
+{
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.form-sub-section
+{
+	margin-top: 15px;
+}
+
+.form-sub-section
+{
+	display: flex;
+	flex-flow: wrap;
+}
+
+.form-line
+{
+	display: block;
+	width: 100%;
+}
+
+.form-input
+{
+	padding: 0;
+	display: block;
+	width: 100%;
+	margin-top: 12px;
+	outline: none;
+	border: none;
+	font-size: 16px;
+}
+
+.form-delimiter
+{
+	width: calc(100% - 10px);
+	height: 1px;
+	margin: 15px 0 0 10px;
+}
+
+.form-button-container
+{
+	display: flex;
+	flex-direction: row-reverse;
+	margin-top: 10px;
+}
+
+.form-button
+{
+	appearance: none;
+	background: none;
+	outline: none;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: 0.4s;
+	font-size: medium;
+	padding: 3px 6px;
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+	margin-right: 10px;
+	border: 2px solid black;
+	height: 34px;
+}
+ 
+.form-button:first-child
+{
+	margin-right: 0;
+}
+.form-button:hover 
+{
+	color: #FFF;
+	background-color: black;
+}

@@ -1,0 +1,130 @@
+
+.select-container
+{
+	display: flex;
+	flex-flow: row-reverse;
+	flex-basis: 100%;
+	margin: 20px 10px 0 0;
+}
+
+.select-container:last-child
+{
+	margin: 20px 0 0 0;
+}
+
+.select-container:first-child
+{
+	margin: 20px 10px 0 10px;
+}
+
+.select 
+{
+	position: relative;
+	padding: 0;
+	outline: none;
+	opacity: 0.8;
+	font-size: 16px;
+	text-align: center;
+	color: white;
+	height: var(--select-div-height);
+	flex-basis: var(--select-div-width);
+}
+  
+.select-wrapper:first-child
+{
+	margin-right: 0;
+}
+
+.select-wrapper
+{
+	margin-right: 10px;
+	z-index: 8;
+	box-shadow: inset 0 0 1000px rgba(255, 255, 255, .5);
+	border-radius: 6px;
+}
+
+.select-wrapper *
+{
+	border-radius: 6px;
+}
+
+.select-wrapper select 
+{
+	display: none; 
+}
+  
+.select-label:after 
+{
+	position: absolute;
+	content: "";
+	top: 11px;
+	right: 11px;
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-color: #fff transparent transparent transparent;
+	border-radius: 6px;
+}
+  
+.select-label.select-arrow-active:after 
+{
+	border-color: transparent transparent #fff transparent;
+	top: 5px;
+}
+  
+.select-option 
+{
+	position: relative;
+	margin-top: var(--select-div-margin);
+	padding: 0;
+	outline: none;
+	border-radius: 6px;
+	font-size: 16px;
+	text-align: center;
+	color: white;
+	height: var(--select-div-height);
+	background-color: var(--menu-color);
+	flex-basis: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.select-label
+{
+	z-index: 9;
+	position: sticky;
+	top : 0px
+}
+
+.select-option:last-child
+{
+	margin-top: var(--select-div-margin);
+	margin-bottom: var(--select-div-margin);
+}
+
+.select-option:first-child
+{
+	margin-top: 0;
+	margin-bottom: var(--select-div-margin);
+}
+
+.select-option:nth-child(2)
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+  
+.select-list-option
+{
+	position: relative;
+	z-index: 10;
+	max-height: calc(calc(var(--select-div-height) * var(--select-div-num)) + 
+		         calc(var(--select-div-margin) * var(--select-div-num)));
+	overflow-y: scroll;
+}
+
+.select-option:hover
+{
+	background-color: rgba(0, 0, 0, 0.8);
+}

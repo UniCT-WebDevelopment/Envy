@@ -1,0 +1,104 @@
+@import url(./data.css);
+
+.tray-container
+{
+	background-color: #184e77;
+	display: flex;
+	flex-flow: nowrap;
+	flex-shrink: 0;
+	flex-grow: 1;
+	padding: 10px;
+}
+
+.tray-card-section
+{
+	flex-grow: 1;
+	padding: var(--container-padding);
+	display: flex;
+	flex-flow: nowrap;
+	align-content: space-between;
+	background-color: white;
+	margin: 10px;
+}
+
+.measure-tray
+{
+	margin-top: 20px;
+	background-color: transparent;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+}
+
+.home-card-measure-header
+{
+	width: 100%;
+}
+
+.home-card-measure-field
+{
+	margin-top: 6px;
+}
+
+.home-card-side-measure-section
+{
+	position: relative;
+	background-color: transparent;
+	padding: 10px;
+	z-index: 1;
+}
+
+.home-card-measure-section
+{
+	background-color: transparent;
+}
+
+.home-card-measure-container
+{
+	display: flex;
+	background-color: transparent;
+}
+
+.home-card-measure-info
+{
+	width: 100%;
+	text-align: center;
+}
+
+.home-card-measure
+{
+	margin-top: 5px;
+	margin-bottom: 0;
+	text-align: center;
+	width: var(--max-measure-len);
+}
+
+.home-card-temp-container
+{
+	left: calc(-100% - var(--tray-left-shift));
+	background-color: var(--temp-color);
+	margin-bottom: 6px;
+}
+
+.home-card-hum-container
+{
+	left: calc(-100% - var(--tray-left-shift));
+	background-color: var(--hum-color);
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
+.home-card-lum-container
+{
+	left: calc(-100% - var(--tray-left-shift));
+	background-color: var(--lum-color);
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
+.home-card-act-container
+{
+	left: calc(-100% - var(--tray-left-shift));
+	background-color: var(--act-color);
+	margin-top: 6px;
+}

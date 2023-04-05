@@ -1,0 +1,113 @@
+#profile-component
+{
+	display: none;
+}
+
+.option-container
+{
+	display:  flex;
+	flex-flow: column;
+	flex-grow: 1;
+	justify-content: space-around;
+	min-height: 470px;
+}
+
+.centered-preview-container
+{
+	align-content: center;
+}
+
+.option-field-input
+{
+	outline: none;
+	border: none;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-size: medium;
+}
+
+.option-field-label
+{
+	flex-basis: 200px;
+	margin-top: 12px;
+	margin-right: 10px;
+	flex-shrink: 0;
+}
+
+.option-field-input-container
+{
+	flex-basis: 40%;
+	margin-top: 10px;
+	flex-grow: 1;
+}
+
+.option-field-container
+{
+	margin-top: 10px;
+	display: flex;
+	flex-basis: 100%;
+	flex-flow: wrap;
+	align-items: center;
+}
+
+.option-form-title
+{
+	margin-top: 20px;
+	flex-basis: 100%;
+}
+
+.option-form-title h2
+{
+	margin: 0;
+}
+
+.field-delimiter
+{
+	flex-basis: 100%;
+	height: 1px;
+}
+
+.option-button-container
+{
+	flex-basis: 100%;
+}
+
+.option-button-container .option-button
+{
+	margin-right: 5px;
+}
+
+.option-button-container .option-button:first-child
+{
+	margin-right: 0;
+}
+
+.option-preview-field
+{
+	flex-grow: 1;
+}
+
+.option-field-container span
+{
+	font-size: medium;
+}
+
+.option-button
+{
+	appearance: none;
+	background: none;
+	outline: none;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: 0.4s;
+	font-size: medium;
+	margin: 20px 0 0 0;
+	border: 2px solid black;
+}
+
+.option-button:hover 
+{
+	color: #FFF;
+	background-color: black;
+}

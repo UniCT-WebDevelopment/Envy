@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../../../../code/c/lib/socket"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"unistd.h": "c",
+			"signal.h": "c",
+			"printer.h": "c",
+			"string.h": "c",
+			"socket.h": "c",
+			"inet.h": "c",
+			"stsocket4.h": "c",
+			"string": "c",
+			"cmath": "c",
+			"tsocketlist.h": "c",
+			"type_traits": "c",
+			"stdlib.h": "c",
+			"ioctl.h": "c",
+			"socketinfo.h": "c",
+			"ctsocket4.h": "c",
+			"socket4.h": "c",
+			"tsocket.h": "c"
+		}
+	}
+}
