@@ -2,11 +2,8 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/web_envy_login.png" alt="Logo" width="80" height="80">
-  </a>
 
-<h3 align="center">Envy</h3>
+<h1 align="center">Envy</h1>
 
   <p align="center">
     <br />
