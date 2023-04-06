@@ -4,7 +4,6 @@
 <div align="center">
 
 <h1 align="center">Envy</h1>
-
   <p align="center">
     <br />
     <br />
@@ -16,39 +15,49 @@
    <a href="https://github.com/UniCT-WebDevelopment/Envy">
     <img src="images/web_envy_login.png" width="100%" height="100%">
   </a>
-
-   <a href="https://github.com/UniCT-WebDevelopment/Envy">
+  <a href="https://github.com/UniCT-WebDevelopment/Envy">
     <img src="images/web_envy_addhome.png" width="100%" height="100%">
   </a>
-
-
-   <a href="https://github.com/UniCT-WebDevelopment/Envy">
+  <a href="https://github.com/UniCT-WebDevelopment/Envy">
     <img src="images/web_envy_addhome_res.png" width="100%" height="100%">
   </a>
-
-   <a href="https://github.com/UniCT-WebDevelopment/Envy">
+  <a href="https://github.com/UniCT-WebDevelopment/Envy">
     <img src="images/web_envy_chemail_res.png" width="100%" height="100%">
   </a>
-
    <a href="https://github.com/UniCT-WebDevelopment/Envy">
     <img src="images/web_envy_chemail.png" width="100%" height="100%">
   </a>
-
    <a href="https://github.com/UniCT-WebDevelopment/Envy">
     <img src="images/web_envy_chuser.png" width="100%" height="100%">
   </a>
-
    <a href="https://github.com/UniCT-WebDevelopment/Envy">
     <img src="images/web_envy_home_res.png" width="100%" height="100%">
   </a>
-
    <a href="https://github.com/UniCT-WebDevelopment/Envy">
     <img src="images/web_envy_home.png" width="100%" height="100%">
   </a>
-
    <a href="https://github.com/UniCT-WebDevelopment/Envy">
     <img src="images/web_envy_log_res.png" width="100%" height="100%">
   </a>
+  <a href="https://github.com/UniCT-WebDevelopment/Envy">
+    <img src="images/mcu_side.png" width="100%" height="100%">
+  </a>
+  <a href="https://github.com/UniCT-WebDevelopment/Envy">
+    <img src="images/mcu_top.png" width="100%" height="100%">
+  </a>
+  <a href="https://github.com/UniCT-WebDevelopment/Envy">
+    <img src="images/board_top.png" width="100%" height="100%">
+  </a>
+   <a href="https://github.com/UniCT-WebDevelopment/Envy">
+    <img src="images/board_bottom.png" width="100%" height="100%">
+  </a>
+  <a href="https://github.com/UniCT-WebDevelopment/Envy">
+    <img src="images/mcu.png" width="100%" height="100%">
+  </a>
+  <a href="https://github.com/UniCT-WebDevelopment/Envy">
+    <img src="images/net.png" width="100%" height="100%">
+  </a>
+   
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -355,18 +364,15 @@ monitor_speed = 115200
   ```sh
     cd download_dir_/envy
   ```
-3. Run the server.
-  ```sh 
-  node app.mjs
-  ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. Run the server.
+  ```sh 
+  node app.mjs
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
