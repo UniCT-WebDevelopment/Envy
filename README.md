@@ -52,14 +52,7 @@
    <a href="https://github.com/UniCT-WebDevelopment/Envy">
     <img src="images/web_envy_log_res.png" width="100%" height="100%">
   </a>
-
-   <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/web_envy_registered.png" width="100%" height="80">
-  </a>  
-
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -262,7 +255,11 @@ For each user home store :
 
 ### Built With
 
-* [![JQuery][JQuery.com]][JQuery-url]
+- C++
+- Javascript ECMAScript 6
+- HTML 5
+- CSS
+- Love
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -354,7 +351,7 @@ monitor_speed = 115200
 ### Installation
 
 1. Clone the repo
-   ```sh
+  ```sh
    git clone https://github.com/UniCT-WebDevelopment/Envy.git
    ```
 2. Move to envy dir
@@ -362,7 +359,7 @@ monitor_speed = 115200
     cd download_dir_/envy
   ```
 3. Run the server.
-   ```sh 
+  ```sh 
   node app.mjs
   ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
