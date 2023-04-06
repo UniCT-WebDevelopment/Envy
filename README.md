@@ -39,23 +39,25 @@
    <a href="https://github.com/UniCT-WebDevelopment/Envy">
     <img src="images/web_envy_log_res.png" width="100%" height="100%">
   </a>
+
   <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/mcu_side.png" width="100%" height="100%">
+    <img src="images/mcu_side.jpg" width="100%" height="100%">
+  </a>
+
+  <a href="https://github.com/UniCT-WebDevelopment/Envy">
+    <img src="images/mcu_top.jpg" width="100%" height="100%">
   </a>
   <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/mcu_top.png" width="100%" height="100%">
-  </a>
-  <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/board_top.png" width="100%" height="100%">
+    <img src="images/board_top.jpg" width="100%" height="100%">
   </a>
    <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/board_bottom.png" width="100%" height="100%">
+    <img src="images/board_bottom.jpg" width="100%" height="100%">
   </a>
   <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/mcu.png" width="100%" height="100%">
+    <img src="images/mcu.jpg" width="100%" height="100%">
   </a>
   <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/net.png" width="100%" height="100%">
+    <img src="images/net.jpg" width="100%" height="100%">
   </a>
    
 </div>
