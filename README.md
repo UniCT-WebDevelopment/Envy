@@ -15,49 +15,9 @@
    <a href="https://github.com/UniCT-WebDevelopment/Envy">
     <img src="images/web_envy_login.png" width="100%" height="100%">
   </a>
-  <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/web_envy_addhome.png" width="100%" height="100%">
-  </a>
-  <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/web_envy_addhome_res.png" width="100%" height="100%">
-  </a>
-  <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/web_envy_chemail_res.png" width="100%" height="100%">
-  </a>
-   <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/web_envy_chemail.png" width="100%" height="100%">
-  </a>
-   <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/web_envy_chuser.png" width="100%" height="100%">
-  </a>
-   <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/web_envy_home_res.png" width="100%" height="100%">
-  </a>
-   <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/web_envy_home.png" width="100%" height="100%">
-  </a>
-   <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/web_envy_log_res.png" width="100%" height="100%">
-  </a>
-
+  
   <a href="https://github.com/UniCT-WebDevelopment/Envy">
     <img src="images/mcu_side.jpg" width="100%" height="100%">
-  </a>
-
-  <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/mcu_top.jpg" width="100%" height="100%">
-  </a>
-  <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/board_top.jpg" width="100%" height="100%">
-  </a>
-   <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/board_bottom.jpg" width="100%" height="100%">
-  </a>
-  <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/mcu.jpg" width="100%" height="100%">
-  </a>
-  <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/net.jpg" width="100%" height="100%">
   </a>
    
 </div>
