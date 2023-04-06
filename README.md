@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/UniCT-WebDevelopment/Envy">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/web_envy_login.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Envy</h3>
@@ -15,7 +15,51 @@
     ·
     <a href="https://github.com/UniCT-WebDevelopment/Envy/issues">Request Feature</a>
   </p>
+
+   <a href="https://github.com/UniCT-WebDevelopment/Envy">
+    <img src="images/web_envy_login.png" width="100%" height="100%">
+  </a>
+
+   <a href="https://github.com/UniCT-WebDevelopment/Envy">
+    <img src="images/web_envy_addhome.png" width="100%" height="100%">
+  </a>
+
+
+   <a href="https://github.com/UniCT-WebDevelopment/Envy">
+    <img src="images/web_envy_addhome_res.png" width="100%" height="100%">
+  </a>
+
+   <a href="https://github.com/UniCT-WebDevelopment/Envy">
+    <img src="images/web_envy_chemail_res.png" width="100%" height="100%">
+  </a>
+
+   <a href="https://github.com/UniCT-WebDevelopment/Envy">
+    <img src="images/web_envy_chemail.png" width="100%" height="100%">
+  </a>
+
+   <a href="https://github.com/UniCT-WebDevelopment/Envy">
+    <img src="images/web_envy_chuser.png" width="100%" height="100%">
+  </a>
+
+   <a href="https://github.com/UniCT-WebDevelopment/Envy">
+    <img src="images/web_envy_home_res.png" width="100%" height="100%">
+  </a>
+
+   <a href="https://github.com/UniCT-WebDevelopment/Envy">
+    <img src="images/web_envy_home.png" width="100%" height="100%">
+  </a>
+
+   <a href="https://github.com/UniCT-WebDevelopment/Envy">
+    <img src="images/web_envy_log_res.png" width="100%" height="100%">
+  </a>
+
+   <a href="https://github.com/UniCT-WebDevelopment/Envy">
+    <img src="images/web_envy_registered.png" width="100%" height="80">
+  </a>  
+
 </div>
+
+
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -63,8 +107,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Envy is a distribuited-system based on the client-server model that allows you to manage, store and control your home environmental statistics.
 
