@@ -308,18 +308,21 @@ lib_deps =
 	khoih-prog/WebSockets2_Generic@^1.9.0
 upload_protocol = stlink
 monitor_speed = 115200
-
+```
 ### Installation
 
 1. Clone the repo
    ```sh
    git clone https://github.com/UniCT-WebDevelopment/Envy.git
+   ```
 2. Move to envy dir
   ```sh
     cd download_dir_/envy
+  ```
 3. Run the server.
    ```sh 
   node app.mjs
+  ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
