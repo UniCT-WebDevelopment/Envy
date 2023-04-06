@@ -1,0 +1,350 @@
+#preview-section
+{
+	display: flex;
+	flex-grow: 1;
+	flex-flow: wrap;
+	justify-content: space-around;
+	background-color: transparent;
+	box-shadow: none;
+	overflow: hidden;
+}
+
+#stat-message
+{
+	color: white;
+}
+
+#message-header
+{
+	margin-top: 70px;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: transparent;
+	animation-name: message-transition;
+	animation-duration: 1s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+}
+
+#user-message
+{
+	margin-top: 0px;
+}
+
+@keyframes message-transition
+{
+	0%
+	{
+		transform: translateY(calc(-100% - 60px));
+	}
+	100%
+	{
+		transform: translate(0%, 0%);
+	}
+}
+
+#message-container
+{
+	flex-shrink: 1;
+	padding: 20px;
+	font-size : 30px;
+}
+
+#menu-status-icon-wrapper
+{
+	margin-top: 70px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: transparent;
+}
+
+#menu-status-icon-container
+{
+	flex-shrink: 0;
+	position: relative;
+}
+
+.rocket-icon-part
+{
+	position: absolute;
+	background-size: cover;
+	z-index: 1;
+}
+
+#rocket-main
+{
+	background-image: url(http://127.0.0.1:8080//rocket/pieces/rocket-rocket.svg);
+}
+
+#rocket-right-cross-flame
+{
+	
+	background-image: url(http://127.0.0.1:8080//rocket/pieces/rocket-right-cross-flame.svg);
+}
+
+#rocket-left-cross-flame
+{
+	background-image: url(http://127.0.0.1:8080//rocket/pieces/rocket-left-cross-flame.svg);
+}
+
+#rocket-left-dot-flame
+{
+	background-image: url(http://127.0.0.1:8080//rocket/pieces/rocket-left-dot-flame.svg);
+}
+
+#rocket-right-dot-flame
+{
+	z-index: 3;
+	background-image: url(http://127.0.0.1:8080//rocket/pieces/rocket-right-dot-flame.svg);
+}
+
+#rocket-main-flame
+{
+	background-image: url(http://127.0.0.1:8080//rocket/pieces/rocket-main-flame.svg);
+}
+
+#fixed-star
+{
+	background-image: url(http://127.0.0.1:8080//rocket/pieces/fixed-star.svg);
+}
+
+#falling-star
+{
+	background-image: url(http:///127.0.0.1:8080//rocket/pieces/falling-star.svg);
+}
+
+#falling-star1
+{
+	background-image: url(http:///127.0.0.1:8080//rocket/pieces/falling-star1.svg);
+}
+
+#falling-star2
+{
+	background-image: url(http:///127.0.0.1:8080//rocket/pieces/falling-star2.svg);
+}
+
+#falling-star3
+{
+	background-image: url(http:///127.0.0.1:8080//rocket/pieces/falling-star3.svg);
+}
+
+#rocket-main-flame
+{
+	animation-name: main-flame-movement;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+.short-flame
+{
+	animation-name: short-flame-movement;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+.long-flame
+{
+	animation-name: long-flame-movement;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+#rocket-main
+{
+	animation-name: rocket-movement;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+#falling-star
+{
+	animation-name: falling-start-movement;
+	animation-delay: 0.3s;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+#falling-star1
+{
+	animation-name: falling-start-movement;
+	animation-delay: 0.8s;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+#falling-star2
+{
+	animation-name: falling-start-movement;
+	animation-duration: 2s;
+	animation-delay: 0.1s;
+	animation-iteration-count: infinite;
+}
+
+#falling-star3
+{
+	animation-name: falling-start-movement;
+	animation-delay: 1.2s;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes falling-start-movement 
+{
+	0%
+	{
+		transform: translate(50%, -50%);
+		display: block;
+	}
+	100%
+	{
+		transform: translate(-50%, 50%);
+		opacity: 0;
+		display: none;
+	}
+	
+}
+
+@keyframes main-flame-movement 
+{
+	0%
+	{
+		transform: translate(0%, 0%);
+	}
+	25%
+	{
+		transform: translate(-2%, 2%);
+	}
+	50%
+	{
+		transform: translate(0%, 0%);
+	}
+	75%
+	{
+		transform: translate(-4%, 4%);	
+	}
+	100%
+	{
+		transform: translate(0%, 0%);
+	}
+}
+
+@keyframes short-flame-movement 
+{
+	0%
+	{
+		transform: translate(0%, 0%);
+	}
+	25%
+	{
+		transform: translate(-3%, 3%);
+	}
+	50%
+	{
+		transform: translate(0%, 0%);
+	}
+	75%
+	{
+		transform: translate(-10%, 10%);	
+	}
+	100%
+	{
+		transform: translate(0%, 0%);
+	}
+}
+
+@keyframes long-flame-movement 
+{
+	0%
+	{
+		transform: translate(0%, 0%);
+	}
+	25%
+	{
+		transform: translate(-3%, 3%);
+	}
+	50%
+	{
+		transform: translate(0%, 0%);
+	}
+	75%
+	{
+		transform: translate(-5%, 5%);	
+	}
+	100%
+	{
+		transform: translate(0%, 0%);
+	}
+}
+
+@keyframes rocket-movement
+{
+	0%
+	{
+		transform: translate(0%, 0%);
+	}
+	25%
+	{
+		transform: translate(3%, -3%);
+	}
+	50%
+	{
+		transform: translate(0%, 0%);
+	}
+	75%
+	{
+		transform: translate(6%, -6%);	
+	}
+	100%
+	{
+		transform: translate(0%, 0%);
+	}	
+}
+
+@media only screen and (min-width: 400px) and (max-width: 720px)
+{
+	#menu-status-icon-container
+	{
+		width: 300px;
+		height: 300px;
+	}
+
+	.rocket-icon-part
+	{
+		width: 300px;
+		height: 300px;
+	}
+
+	#menu-status-icon-wrapper
+	{
+		flex-basis: 300px;
+	}
+
+}
+
+@media only screen and (min-width: 721px)
+{
+	#menu-status-icon-container
+	{
+		width: 400px;
+		height: 400px;
+	}
+
+	.rocket-icon-part
+	{
+		width: 400px;
+		height: 400px;
+	}	
+	
+	#menu-status-icon-wrapper
+	{
+		flex-basis: 400px;
+	}
+}

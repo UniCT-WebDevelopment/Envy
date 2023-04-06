@@ -1,0 +1,29 @@
+{
+  "name": "envyserver",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UniCT-WebDevelopment/Envy.git"
+  },
+  "author": "Gianluca Trigili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UniCT-WebDevelopment/Envy/issues"
+  },
+  "homepage": "https://github.com/UniCT-WebDevelopment/Envy#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^5.2.0",
+    "node": "^14.20.0",
+    "socket.io": "^4.6.1",
+    "uuid": "^9.0.0"
+  }
+}
