@@ -172,63 +172,31 @@ For each routine store :
  
 ### Client-DB 
 
-The database is managed only by the web-server application.
+The client database is managed only by the web-server application.
     
 For each web client store :
 
-- hardware specification
-- sensor list 
-- network info 
-- MCU activity
-- planned routine
-    
-For each sensor store : 
+- username 
+- password
+- email
+- last login
+- last logout
+- activity time
 
-- model
-- type
-
-For each measure store :
-
-- result 
-- timestamp
-- sensor ID
-
-For each routine store :
-
-- related MCU operation
-- timestamp creation
-- timestamp last enable
-- timestamp last disable 
- 
+...
 
 ### Home-DB 
     
 For each user home store :
 
-- hardware specification
-- sensor list 
-- network info 
-- MCU activity
-- planned routine
-    
-For each sensor store : 
+- name
+- state 
+- city
+- street 
+- room set
+- device 
+- enviromental statistic
 
-- model
-- type
-
-For each measure store :
-
-- result 
-- timestamp
-- sensor ID
-
-For each routine store :
-
-- related MCU operation
-- timestamp creation
-- timestamp last enable
-- timestamp last disable 
- 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Roadmap
@@ -267,7 +235,7 @@ To get a local copy up and running follow these simple example steps.
 A server machine that is compatible with :  
 
 1. Node.js v14.21.3
-2. MongoDB 6.0.5
+2. MongoDB v6.0.5
   
 ## MCU minimum requisites
 
@@ -327,7 +295,7 @@ One or more of this component :
 ### Note :
 
 this is the content of the platformio.ino files used in test :
-
+```
 [env:nucleo_f401re]
 platform = ststm32
 board = nucleo_f401re
@@ -346,15 +314,12 @@ monitor_speed = 115200
 1. Clone the repo
    ```sh
    git clone https://github.com/UniCT-WebDevelopment/Envy.git
-  ```
 2. Move to envy dir
   ```sh
     cd download_dir_/envy
-   ``` 
 3. Run the server.
    ```sh 
   node app.mjs
-   ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
